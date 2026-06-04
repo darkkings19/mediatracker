@@ -1,0 +1,36 @@
+body[data-view="series"] {
+    --page-accent: var(--neon-purple);
+}
+
+body[data-view="series"] .brand-mark {
+    background: linear-gradient(135deg, #7c3aed, #b026ff);
+    box-shadow: 0 0 18px rgba(176, 38, 255, .35);
+}
+
+body[data-view="series"] .btn-main {
+    background: linear-gradient(135deg, #7c3aed, #b026ff);
+    border-color: rgba(176, 38, 255, .45);
+    box-shadow: 0 0 16px rgba(176, 38, 255, .25);
+}
+
+body[data-view="series"] .btn-main:hover {
+    box-shadow: 0 0 24px rgba(176, 38, 255, .4);
+}
+
+body[data-view="series"] .nav-btn.active {
+    box-shadow: inset 3px 0 0 var(--neon-purple);
+}
+
+body[data-view="series"] .form-control:focus,
+body[data-view="series"] .form-select:focus {
+    border-color: #b026ff !important;
+    box-shadow: 0 0 0 3px var(--neon-purple-glow), 0 0 14px var(--neon-purple-glow) !important;
+}
+
+body[data-view="series"] .summary-card::after { background: var(--neon-purple); }
+body[data-view="series"] .summary-card:hover .summary-icon { box-shadow: 0 0 18px var(--neon-purple-glow); }
+
+body[data-view="series"] .app-icon-header {
+    background: linear-gradient(135deg, #7c3aed, #b026ff);
+    box-shadow: 0 0 18px rgba(176, 38, 255, .35);
+}

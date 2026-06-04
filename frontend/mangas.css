@@ -1,0 +1,36 @@
+body[data-view="mangas"] {
+    --page-accent: var(--electric-lime);
+}
+
+body[data-view="mangas"] .brand-mark {
+    background: linear-gradient(135deg, #d97706, #ccff00);
+    box-shadow: 0 0 18px rgba(204, 255, 0, .25);
+}
+
+body[data-view="mangas"] .btn-main {
+    background: linear-gradient(135deg, #d97706, #ccff00);
+    border-color: rgba(204, 255, 0, .4);
+    box-shadow: 0 0 16px rgba(204, 255, 0, .15);
+}
+
+body[data-view="mangas"] .btn-main:hover {
+    box-shadow: 0 0 24px rgba(204, 255, 0, .3);
+}
+
+body[data-view="mangas"] .nav-btn.active {
+    box-shadow: inset 3px 0 0 var(--electric-lime);
+}
+
+body[data-view="mangas"] .form-control:focus,
+body[data-view="mangas"] .form-select:focus {
+    border-color: #ccff00 !important;
+    box-shadow: 0 0 0 3px var(--electric-lime-glow), 0 0 14px var(--electric-lime-glow) !important;
+}
+
+body[data-view="mangas"] .summary-card::after { background: #ccff00; }
+body[data-view="mangas"] .summary-card:hover .summary-icon { box-shadow: 0 0 18px var(--electric-lime-glow); }
+
+body[data-view="mangas"] .app-icon-header {
+    background: linear-gradient(135deg, #d97706, #ccff00);
+    box-shadow: 0 0 18px rgba(204, 255, 0, .25);
+}

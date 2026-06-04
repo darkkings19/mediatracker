@@ -1,0 +1,36 @@
+body[data-view="novelas"] {
+    --page-accent: var(--cyan);
+}
+
+body[data-view="novelas"] .brand-mark {
+    background: linear-gradient(135deg, #0284c7, #00f0ff);
+    box-shadow: 0 0 18px rgba(0, 240, 255, .3);
+}
+
+body[data-view="novelas"] .btn-main {
+    background: linear-gradient(135deg, #0284c7, #00f0ff);
+    border-color: rgba(0, 240, 255, .45);
+    box-shadow: 0 0 16px rgba(0, 240, 255, .2);
+}
+
+body[data-view="novelas"] .btn-main:hover {
+    box-shadow: 0 0 24px rgba(0, 240, 255, .35);
+}
+
+body[data-view="novelas"] .nav-btn.active {
+    box-shadow: inset 3px 0 0 var(--cyan);
+}
+
+body[data-view="novelas"] .form-control:focus,
+body[data-view="novelas"] .form-select:focus {
+    border-color: #00f0ff !important;
+    box-shadow: 0 0 0 3px var(--cyan-glow), 0 0 14px var(--cyan-glow) !important;
+}
+
+body[data-view="novelas"] .summary-card::after { background: #00f0ff; }
+body[data-view="novelas"] .summary-card:hover .summary-icon { box-shadow: 0 0 18px var(--cyan-glow); }
+
+body[data-view="novelas"] .app-icon-header {
+    background: linear-gradient(135deg, #0284c7, #00f0ff);
+    box-shadow: 0 0 18px rgba(0, 240, 255, .3);
+}
